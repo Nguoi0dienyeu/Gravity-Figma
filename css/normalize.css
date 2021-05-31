@@ -74,14 +74,17 @@ button a {
 	display: flex;
 	margin-top: 150px;
 }
+.lef-image-a img {
+	height: 564px;
+}
 .right-text-a h1 {
     font-size: 45px;
-    margin-bottom: 40px;
+    padding-bottom: 20px;
 }
 .right-text-a {
-	padding-left: 95px;
+	padding-left: 96px;
 	text-align: left;
-	padding-top: 46px;
+	padding-top: 47px;
 }
 .right-text-a p {
 	font-size: 18px;
@@ -94,7 +97,8 @@ button a {
 	font-family: sans-serif;
 }
 .user {
-	padding-top: 75px;
+	padding-top: 24px;
+	padding-bottom: 91px;
 }
 .user img {
 	float: left;
@@ -103,7 +107,13 @@ button a {
 .user p {
     margin: 0;
     padding-top: 4px;
-} 
+}
+p.user-txt:nth-child(2) {
+	color: black;
+    font-size: 23px;
+    font-weight: bold;
+    opacity: 1;
+}
 .u-tt p {
 	font-size: 17px;
     line-height: 0;
