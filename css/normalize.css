@@ -32,7 +32,6 @@ body {
 	font-size: 60px;
 	text-align: left;
 	padding-right: 140px;
-	line-height: 70px;
 	font-weight: bold;
 	color: #151515;
 }
@@ -45,6 +44,8 @@ body {
     padding-top: 40px;
     padding-bottom: 60px;
     opacity: 0.5;
+    text-shadow: 2px 2px #dad6d6;
+    font-family: ui-sans-serif;
 }
 button {
 	padding: 20px 24px;
@@ -73,30 +74,36 @@ button a {
 	display: flex;
 	margin-top: 150px;
 }
-.lef-image-a {
-	margin-left: 79px;
-}
 .right-text-a h1 {
     font-size: 45px;
-    font-family: Fira Sans;
+    margin-bottom: 40px;
 }
 .right-text-a {
-	margin-left: 57px;
-	margin-right: 73px;
+	padding-left: 95px;
+	text-align: left;
+	padding-top: 46px;
 }
 .right-text-a p {
 	font-size: 18px;
 	text-align: left;
-	margin-top: 40px;
+	margin-bottom: 20px;
+	font-style: normal;
+	padding-right: 181px;
+	line-height: 1.5;
+	opacity: 0.4;
+	font-family: sans-serif;
 }
 .user {
-	border-radius: 40px;
+	padding-top: 75px;
+}
+.user img {
 	float: left;
-	margin-right: 30px;
+	padding-right: 32px;
 }
-img.user {
-	margin-top: 69px;
-}
+.user p {
+    margin: 0;
+    padding-top: 4px;
+} 
 .u-tt p {
 	font-size: 17px;
     line-height: 0;
