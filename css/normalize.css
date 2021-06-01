@@ -4,8 +4,9 @@
 	padding: 0;
 }
 #wrap {
-	max-width: 1200px;
 	background: #F4F4F4;
+	margin: auto;
+	max-width: 1200px;
 }
 body {
 	font-family: Fira Sans;
@@ -36,33 +37,51 @@ body {
 	color: #151515;
 }
 .text-left p {
-	font-size: 20px;	
+	font-size: 18px;	
 	text-align: left;	
 	color: black;
 	line-height: 1.5;
     padding-right: 157px;
     padding-top: 40px;
     padding-bottom: 60px;
-    opacity: 0.5;
-    text-shadow: 2px 2px #dad6d6;
-    font-family: ui-sans-serif;
+    opacity: 70%;
+    text-shadow: 2px 4px 4px #dad6d6;
 }
 button {
 	padding: 20px 24px;
 	border: none;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 4px;
 	text-transform: uppercase;
 	background-color: #5D5FEF;
 	float: left;
-}
-button a {
-	color: black;
-	text-decoration: none;
-	font-weight: bold;
+	opacity: 100%;
+	cursor: pointer;
 }
 .volume {
+	display: flex;
+	width: 100%;
+	padding-top: 190px;
+}
+.volume .min {
+	background-color: #C6B393;
+	padding: 1px 70px;
+	height: 0;
+}
+.volume .max {
+	background-color: #D7D4D4;
+	padding: 1px 70px;
+	opacity: 100%;
+	height: 0;
+	z-index: 1;
+}
+.play {
 	position: absolute;
-	top: 72%;
-    left: 0%;
+	top: 59%;
+    left: 107%;
+    z-index: 1;
+    cursor: pointer;
 }
 .videop {
 	position: absolute;
@@ -83,7 +102,6 @@ button a {
 }
 .right-text-a {
 	padding-left: 96px;
-	text-align: left;
 	padding-top: 47px;
 }
 .right-text-a p {
