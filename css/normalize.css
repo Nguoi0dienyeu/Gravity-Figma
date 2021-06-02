@@ -39,7 +39,9 @@ body {
 .text-left p {
 	font-size: 18px;	
 	text-align: left;	
-	color: black;
+	color: #222222;
+	font-weight: normal;
+	font-style: normal;
 	line-height: 1.5;
     padding-right: 157px;
     padding-top: 40px;
@@ -63,6 +65,10 @@ button {
 	display: flex;
 	width: 100%;
 	padding-top: 190px;
+	align-items: center;
+}
+span {
+    padding: 10px;
 }
 .volume .min {
 	background-color: #C6B393;
@@ -82,11 +88,13 @@ button {
     left: 107%;
     z-index: 1;
     cursor: pointer;
+    background: white;
 }
 .videop {
 	position: absolute;
 	top: 45.5%;
 	left: 80%;
+	box-shadow: -20px 60px 120px rgba(0, 0, 0, 0.44);
 }
 /*about*/
 .about {
@@ -97,23 +105,37 @@ button {
 	height: 564px;
 }
 .right-text-a h1 {
-    font-size: 45px;
+    font-size: 40px;
     padding-bottom: 20px;
+    font-weight: Semibold;
+    letter-spacing: -1 !important;
 }
 .right-text-a {
 	padding-left: 96px;
 	padding-top: 47px;
 }
+.first-right-text-a p {
+	opacity: 100%;
+	font-size: 18px;
+	color: black;
+	text-align:left;
+	font-style: normal;
+}
 .right-text-a p {
 	font-size: 18px;
 	text-align: left;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 	font-style: normal;
 	padding-right: 181px;
 	line-height: 1.5;
 	opacity: 0.4;
 	font-family: sans-serif;
+	
 }
+.two-text {
+	padding-top: 36px;
+}
+
 .user {
 	padding-top: 24px;
 	padding-bottom: 91px;
@@ -124,13 +146,15 @@ button {
 }
 .user p {
     margin: 0;
-    padding-top: 4px;
+    padding-top: 15px;
+    height: 0;
 }
 p.user-txt:nth-child(2) {
 	color: black;
     font-size: 23px;
     font-weight: bold;
     opacity: 1;
+    padding-top: 5px;
 }
 .u-tt p {
 	font-size: 17px;
@@ -142,7 +166,6 @@ p.user-txt:nth-child(2) {
 	justify-content: space-around;
 }
 h1.text-ser {
-    margin-left: 75px;
     padding-right:151px ;
 }
 .menu{
@@ -153,19 +176,17 @@ h1.text-ser {
  	font-size: 18px;
  	color: #C4C4C4;
  }
- .title{
- 	margin-left: 77px;
- 	margin-top: 40px;
- 	margin-bottom: 77px;
- 	font-size: 18px;
- 	font-family: sans-serif;
+ p.title {
+ 	padding-top:145px ;
+ 	opacity: 70%;
  	color: black;
+ 	text-align:left;
  	text-transform: uppercase;
+ 	padding-bottom: 45px;
  }
+
  .placeholder {
  	display: flex;
- 	padding-left: 50px;
- 	margin-top: 60px;
  	position: relative;
  }
  .place {
