@@ -216,39 +216,39 @@ h1.text-ser {
 	transform: rotate(-180deg);
 }
 /*end*/
+/*features*/
 .features {
- 		position: relative;
- 		display: flex;
- 		margin-top: 220px;
- 		margin-bottom: 300px;
+ 	display: flex;
+    padding-top: 167px;
+    justify-content: space-between;
+    align-items: flex-start;
  	}
-.fea-position {
- 	position: absolute;
-	left: 21%;
-    top: 20%;
- 	}
+.fea-index {
+     position: absolute;
+    left: 29%;
+    padding-top: 110px;
+}
 .fea-text {
-	margin-left: 275px;
-    box-sizing: border-box;
-    padding: 20px;
+    padding-top: 50px;
+}
+.fea-text h1 {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 50px;
+	color: #222222;
+	padding-left: 150px;
+	padding-right: 37px;
+	font-style: normal;
 }
 .fea-text p {
-	margin-top: 40px;
 	font-size: 18px;
-}
-.fea-img {
-	background-color: #E5E5E5;
-	border-radius: 15px;
-}
-img.fea-img {
-	margin-right: 20px;
-    margin-bottom: -10px;
-}
-.fea-img-text {
-	display: inline-block;
-	margin-right: 57px;
-	text-transform: uppercase;
-	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	opacity: 70%;
+	font-style: normal;
+	color: #222222;
+	padding-left: 150px;
+	padding-top: 40px;
 }
 .work {
     display: flex;
