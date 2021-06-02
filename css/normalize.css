@@ -158,51 +158,64 @@ p.user-txt:nth-child(2) {
 	justify-content: space-around;
 }
 h1.text-ser {
-    padding-right:151px ;
+    padding-right:220px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    font-style: normal;
 }
 .menu{
     width: 50%;
  }
  .menu p {
- 	line-height: 3;
+ 	color: #222222;
+ 	line-height: 2.8;
  	font-size: 18px;
- 	color: #C4C4C4;
+ 	font-weight: normal;
+ 	opacity: 50%;
  }
  p.title {
  	padding-top:145px ;
  	opacity: 70%;
- 	color: black;
- 	text-align:left;
+ 	color: #222222;
+ 	font-weight: 500;
+ 	font-size: 14px;
+ 	line-height: 24px;
  	text-transform: uppercase;
+ 	letter-spacing: 4;
  	padding-bottom: 45px;
  }
-
- .placeholder {
- 	display: flex;
- 	position: relative;
- }
- .place {
- 	margin-left: 22px;
- }
- .play-btn {
- 	width: 75px;
- 	height: 75px;
- 	background: gray;
- 	position: absolute;
- 	top: 40%;
- 	left: 35%;
- 	right: 35%;
- 	bottom: 40%;
- 	text-align: center;
- }
- .border-box {
- 	background: #C4C4C4;
- 	font-size: 15px;
- 	width: 50px;
- 	height: 50px;
- 	text-align: center;
- 	font-weight: bold;
- 	 }
+/*serview 2*/
+.slide-ser {
+	display: flex;
+	padding-top: 109px;
+	position: relative;
+}
+.place-ser:nth-child(2) {
+    padding-left: 30px;
+}
+.play-ser {
+	position: absolute;
+    top: 52%;
+    left: 32%;
+    cursor: pointer;
+}
+/*navigation*/
+.navigation {
+	display: flex;
+	padding-top: 80px;
+}
+.prev {
+	padding: 16px 21px;
+	background-color: #C4C4C4;
+	border: 2px solid #ffffff;
+	cursor: pointer;
+}
+.prev:nth-child(2){
+	border: 2px solid #ffffff;
+	transform: rotate(-180deg);
+}
+/*end*/
 .features {
  		position: relative;
  		display: flex;
