@@ -104,34 +104,28 @@ span {
 }
 .right-text-a h1 {
     font-size: 40px;
-    padding-bottom: 20px;
-    font-weight: Semibold;
-    letter-spacing: -1 !important;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 50px;
+    color: #222222;
+    letter-spacing: -1;
 }
 .right-text-a {
-	padding-left: 96px;
+	padding-left: 127px;
 	padding-top: 47px;
-}
-.first-right-text-a p {
-	opacity: 100%;
-	font-size: 18px;
-	color: black;
-	text-align:left;
-	font-style: normal;
 }
 .right-text-a p {
 	font-size: 18px;
-	text-align: left;
 	padding-bottom: 20px;
 	font-style: normal;
 	padding-right: 181px;
-	line-height: 1.5;
-	opacity: 0.4;
-	font-family: sans-serif;
+	line-height: 28px;
+	opacity: 70%;
+	font-weight: 400;
 	
 }
 .two-text {
-	padding-top: 36px;
+	padding-top: 32px;
 }
 
 .user {
@@ -150,7 +144,7 @@ span {
 p.user-txt:nth-child(2) {
 	color: black;
     font-size: 23px;
-    font-weight: bold;
+    font-weight: 500;
     opacity: 1;
     padding-top: 5px;
 }
