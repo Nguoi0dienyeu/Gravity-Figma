@@ -31,7 +31,6 @@ body {
 } 
 .text-left h1 {
 	font-size: 60px;
-	text-align: left;
 	padding-right: 140px;
 	font-weight: bold;
 	color: #151515;
@@ -80,18 +79,20 @@ span {
 	height: 0;
 	z-index: 1;
 }
-.play {
+/*videos*/
+.videos {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 63%;
+    top: -33%;
+}
+img.play {
 	position: absolute;
-	top: 59%;
-    left: 107%;
-    z-index: 1;
-    cursor: pointer;
-    background: white;
+	cursor: pointer;
 }
 .videop {
-	position: absolute;
-	top: 45.5%;
-	left: 80%;
 	box-shadow: -20px 60px 120px rgba(0, 0, 0, 0.44);
 }
 /*about*/
@@ -127,32 +128,31 @@ span {
 .two-text {
 	padding-top: 32px;
 }
-
 .user {
-	padding-top: 24px;
-	padding-bottom: 91px;
+	display: flex;
+	padding-top: 75px;
 }
-.user img {
-	float: left;
-	padding-right: 32px;
+.border-user {
+    padding-left: 32px;
 }
-.user p {
+.border-user .user-txt {
+    padding: 0px;
+}
+
+.user-txt p {
     margin: 0;
     padding-top: 15px;
     height: 0;
+    line-height: 17px;
 }
-p.user-txt:nth-child(2) {
+p.user-txt:nth-child(1) {
 	color: black;
     font-size: 23px;
     font-weight: 500;
     opacity: 1;
     padding-top: 5px;
 }
-.u-tt p {
-	font-size: 17px;
-    line-height: 0;
-    margin: 32px;
-}
+
 .services {
 	display: flex;
 	justify-content: space-around;
