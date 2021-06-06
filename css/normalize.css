@@ -63,7 +63,7 @@ button {
 	width: 39%;
 	border-radius: 2px;
 	background-color: #C6B393;
-	margin-top: 190px;
+	margin: 10px;
 }
 .process {
 	width: 50%;
@@ -76,12 +76,10 @@ button {
 	display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-.vol-num-vol span {
-    padding-top: 195px;
+    margin-top: 190px;
 }
 span {
-	padding: 6px;
+	
 }
 /*videos*/
 
@@ -139,6 +137,7 @@ img.play {
 }
 .border-user {
     padding-left: 32px;
+    padding-top: 4px;
 }
 .border-user .user-txt {
     padding: 0px;
