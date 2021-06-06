@@ -56,6 +56,7 @@ button {
 	opacity: 100%;
 	cursor: pointer;
 }
+/*volume*/
 .volume {
 	display: flex;
 	align-items: center;
@@ -77,9 +78,6 @@ button {
     justify-content: flex-start;
     align-items: center;
     margin-top: 190px;
-}
-span {
-	
 }
 /*videos*/
 
@@ -159,17 +157,18 @@ p.user-txt:nth-child(1) {
 
 .services {
 	display: flex;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 }
 h1.text-ser {
-    padding-right:220px;
+    padding-right:168px;
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
     font-style: normal;
+    opacity: 100%;
 }
 .menu{
-    width: 50%;
+    width: 68%;
  }
  .menu p {
  	color: #222222;
@@ -212,18 +211,25 @@ img.place-ser {
 }
 /*navigation*/
 .navigation {
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	padding-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
 }
-.prev {	
-	padding: 20px 25px;
-	background-color: #C4C4C4;
-	border: 2px solid #ffffff;
-	cursor: pointer;
+img.prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 22px;
+    margin: 3px;
+    background: #C4C4C4;
+    opacity: 100%;
 }
-
+img.prev:nth-child(2) {
+    transform: rotate(-180deg);	
+    margin-left: 24px;
+    opacity: 100%;
+}	
 /*end*/
 /*features*/
 .features {
