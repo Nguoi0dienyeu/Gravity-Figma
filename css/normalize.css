@@ -60,7 +60,7 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	width: 50%;
+	width: 39%;
 	border-radius: 2px;
 	background-color: #C6B393;
 	margin-top: 190px;
@@ -71,6 +71,17 @@ button {
 	height: 2px;
 	background-color: #D7D4D4;
 	border-radius: 2px;
+}
+.vol-num-vol {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.vol-num-vol span {
+    padding-top: 195px;
+}
+span {
+	padding: 6px;
 }
 /*videos*/
 
