@@ -101,9 +101,6 @@ img.play {
 	display: flex;
 	margin-top: 150px;
 }
-.lef-image-a img {
-	height: 564px;
-}
 .right-text-a h1 {
     font-size: 40px;
     font-weight: 600;
@@ -233,27 +230,27 @@ img.prev:nth-child(2) {
 /*end*/
 /*features*/
 .features {
- 	display: flex;
-    padding-top: 167px;
-    justify-content: space-between;
-    align-items: flex-start;
- 	}
-.fea-index {
-     position: absolute;
-    left: 29%;
-    padding-top: 110px;
-    display: none;
+	display: flex;
+	padding-top: 180px;
+}
+.fea-right-img {
+    margin-left: -73px;
+    position: relative;
+}
+img.fea-index {
+    position: absolute;
+    top: 18%;
+    left: 57%;
 }
 .fea-text {
-    padding-top: 50px;
+    padding-left: 200px;
+    padding-top: 60px;
 }
 .fea-text h1 {
 	font-size: 40px;
 	font-weight: 600;
 	line-height: 50px;
 	color: #222222;
-	padding-left: 150px;
-	padding-right: 37px;
 	font-style: normal;
 }
 .fea-text p {
@@ -263,25 +260,46 @@ img.prev:nth-child(2) {
 	opacity: 70%;
 	font-style: normal;
 	color: #222222;
-	padding-left: 150px;
-	padding-top: 40px;
+	padding-right: 36px;
 }
-.box-sale {
+.box-sale{
+	padding-top: 60px;
+}
+.first-sale {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
-.box-sale-image {
+
+p.first-text {
+    padding-left: 33px;
+    color: #000000;
+    padding-top: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 100%;
+}
+.second-sale {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
 }
-.text-sale {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    /* justify-content: flex-start; */
+.first-sale span {
+    background: #E5E5E5;
+    border-radius: 39px;
+    text-align: center;
+    padding: 14px 16px;
 }
-/*work*/
+.second-sale span {
+    background: #E5E5E5;
+    padding: 11px 17px;
+    border-radius: 68px;
+}
+/*work */
 .work {
     display: flex;
     justify-content: space-between;
