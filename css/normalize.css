@@ -243,8 +243,8 @@ img.fea-index {
     left: 57%;
 }
 .fea-text {
-    padding-left: 200px;
-    padding-top: 60px;
+    padding-left: 191px;
+    padding-top: 47px;
 }
 .fea-text h1 {
 	font-size: 40px;
@@ -252,6 +252,7 @@ img.fea-index {
 	line-height: 50px;
 	color: #222222;
 	font-style: normal;
+	padding-bottom: 35px;
 }
 .fea-text p {
 	font-size: 18px;
@@ -272,7 +273,7 @@ img.fea-index {
 }
 
 p.first-text {
-    padding-left: 33px;
+    padding-left: 30px;
     color: #000000;
     padding-top: 0;
     font-weight: 500;
@@ -286,7 +287,7 @@ p.first-text {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .first-sale span {
     background: #E5E5E5;
@@ -303,19 +304,27 @@ p.first-text {
 .work {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 ul li {
 	display: inline;
 	padding: 7px 14px;
 }
 ul li a {
-	text-transform: uppercase;
-	text-decoration: none;
-	color:#C4C4C4;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #C4C4C4;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 4px;	
 }
-li.active {
-	background-color: #1434E1;
+li.active a {
+	color: #1434E1;
+}
+li a:hover {
+    color: #1434E1;
 }
 ul.work-menu-left {
-    margin-top: 33px;
+    padding-top: 10px;
 }
