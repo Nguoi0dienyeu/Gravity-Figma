@@ -345,18 +345,34 @@ ul.work-menu-left {
     padding-top: 10px;
 }
 
-/*work gallary*/
-.gal-play {
+/*work image*/
+.gallary-one {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+.gallary-two {
+    display: flex;
+    justify-content: space-between;
+    padding-top:35px;
+}
+.work-play {
     display: flex;
     justify-content: center;
     align-items: center;
-        align-self: flex-start;
-    margin-top: -20px;
+    position: relative;
 }
-.play-play2 {
+img.play-play2 {
     position: absolute;
     cursor: pointer;
 }
+.work-play > img:nth-child(2) {
+    width: 13%;
+}
+.gallary img {
+    width: 32%;
+}
+/*work gallary*/
 .box-see-work {
 	display: flex;
 	align-items: center;
