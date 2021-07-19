@@ -369,8 +369,8 @@ ul.work-menu-left {
     position: relative;
     top: -20px;
 }
-.col img {
-    width: 100%;
+.gal-play {
+    display: none;
 }
 .work-play {
     display: flex;
